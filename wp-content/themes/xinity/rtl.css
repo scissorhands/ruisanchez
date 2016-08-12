@@ -1,0 +1,65 @@
+
+body { direction: rtl; text-align: right; }
+
+#breadcrumbs , div.search-results ul li div.desc a.more{ left:0; right:auto; }
+
+div.search-results ul li div.image, div.search-results ul li div.desc.hasImage { float: right; }
+div.search-results ul li h5 { margin-right: 0; margin-left:50px; }
+a.ajax-search-close { left:16px; right:auto; }
+
+/**
+ * Sidebar
+ */
+
+ div.sidebar-wrap .proxy-search { right: auto; left: 0; }
+ .sidebar-wrap h3.heading .widget-title { padding-right: 0; padding-left: 15px; }
+ .sidebar-wrap.widget_recent_entries ul li, .sidebar-wrap.widget_archive ul li, .sidebar-wrap.widget_categories ul li, .sidebar-wrap.widget_meta ul li, .sidebar-wrap.widget_recent_comments ul li { padding-left: 0; padding-right: 25px; }
+ .sidebar-wrap ul li i.w-pin { right: 0; left:auto; }
+
+ .sidebar-wrap .widget-posts .image { right: 0; left:auto; }
+ .sidebar-wrap .widget-posts .description { margin-left: 0; margin-right: 65px; }
+
+ div.testimonial-bubble div.image { float: right; margin-left: 15px; margin-right: 0; }
+ div.testimonial-bubble div.info { float: right; }
+
+/**
+ * Footer
+ */
+
+ .footer-wrap .widget-posts .image { right: 0; left:auto; }
+ .footer-wrap .widget-posts .description { margin-left: 0; margin-right: 65px; }
+
+ /**
+  * Blog templates
+  */
+.sticky-icon { right: -10px; left:auto; } 
+  div.blog-list-posts ul li div.image-wrap { float: right; margin-left: 30px; margin-right: 0; }
+
+#authorbox .author-avatar { left:auto; right:0; }
+#authorbox .authortext { margin-left: 0; margin-right: 100px; }
+div.ioa-menu { float: right; }
+#comments div.reply { left:0; right:auto; }
+div.image-info img , #comments cite.fn, div.image-info a { float: right; }
+/**
+ * Portfolio Templates
+ */
+
+ .like-icon-wrap { right: auto; left:0px; }
+ div.portfolio-columns ul li div.inner-item-wrap h2 { padding-right: 0; padding-left: 60px; }
+ div.portfolio-list div.image-wrap { margin-left: 50px; margin-right: 0; float: right; }
+
+ ul.portfolio_list li div.inner-item-wrap div.image-wrap { margin-left: 40px; margin-right: 0; float: right; }
+
+ .seleneGallery div.gallery-desc.s-c-l { right: 75px; }
+
+ .ioa-template-portfolio-modelie{ direction:ltr; text-align: left; }
+
+.pp_nav .pp_play,  .pp_nav a.pp_pause , a.pp_arrow_previous, a.pp_arrow_next, a.pp_close, a.pp_previous , a.pp_next { text-indent: 10000px; }
+
+.portfolio-maerya, .single-model-images { direction:ltr; text-align: left; }
+
+.side-featured-media { margin-right: 0; margin-left: 40px; float: right; }
+.single-portfolio-content { float: right; margin-right: 0; }
+.single-portfolio-content.last { clear:none; }
+
+div.portfolio_related_posts ul.single-related-posts { left:auto; right:0; }

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.page-wrapper, div.page-wrapper.no-title.no-media.ioa-template-portfolio-full-screen-gallery.page-wrapper { zoom:1; top: -75px; margin-bottom: -75px; }
+div.page-wrapper.no-bottom-bar , div.page-wrapper.no-head-area { top: 0;  margin-bottom:0px; }
+div.page-wrapper.no-title.no-media { margin-top: 0; top:0;  margin-bottom:0px; }
+div.page-wrapper.blank-template { margin-top:0px;  top: 0;  margin-bottom:0px; }
+

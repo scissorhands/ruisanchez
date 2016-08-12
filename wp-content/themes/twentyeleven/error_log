@@ -1,0 +1,1 @@
+[07-Jul-2016 03:09:53 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/ximicamp/public_html/ruisanchez/wp-content/themes/twentyeleven/404.php on line 10

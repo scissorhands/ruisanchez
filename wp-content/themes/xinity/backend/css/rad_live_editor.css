@@ -1,0 +1,226 @@
+/*##   DOCUMENT INFORMATION - Document: RAD Live Builder Stylings - Version:  3.5 - Author:   Artillgence - Notes : 
+*/
+input.sticky-save.button-save::-moz-focus-inner { border: 0; padding: 0; margin: 0; }
+
+.ioa_wrap .hide { display: none; }
+
+.widget .ioa-query-box a.button-default { padding: 4px 12px; }
+
+.ioa-query-box input[type=text] { float: left; width: 120px; }
+
+.ioa-query-box a.button-default { float: left; margin: 1px 0px 0px 14px; font-size: 11px; padding: 11px; }
+
+a.button-default:focus { color: #fff; background: inherit; }
+
+/**
+*
+* Box  Model
+*
+**/
+#rad_live_settings { position: fixed; top: -45px; left: 0; width: 100%; z-index: 200; background: #fff; transition: top 0.3s ease; }
+
+#rad_live_settings > a, #rad-create-page-trigger { float: left; padding: 12px 15px; text-decoration: none; }
+
+#rad_live_settings div.ioa-admin-menu-wrap { border: none; padding-left: 0; margin-left: 10px; }
+
+#rad_live_settings div.ioa-admin-menu-wrap a.ioa-admin-menu { border: none; padding: 14px 15px 10px 15px; }
+
+#save-rad-data, #rad-create-page-trigger { background: #1A83D1; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: 600; }
+
+#close-rad-mode { background: #222; font-size: 12px; text-transform: uppercase; color: #fff; font-weight: 600; }
+
+#preview-rad-data { background: #419bf9; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: 600; }
+
+#rad_live_settings a#library-rad-pages-data { font-size: 11px; text-transform: uppercase; color: #222; font-weight: 600; float: right; }
+
+#rad_live_settings a#library-rad-sections-data { font-size: 11px; text-transform: uppercase; color: #222; font-weight: 600; float: right; }
+
+#create-rad-page { float: left; position: relative; }
+
+div.rad-input-panel { width: 238px; position: absolute; z-index: 2; bottom: -63px; right: 0; padding: 10px; background: #fff; border-radius: 4px; display: none; }
+
+div.rad-input-panel input { padding: 10px; width: 150px; float: left; margin-right: 15px; display: block; }
+
+div.rad-input-panel a { float: left; text-decoration: none; font-size: 11px; font-weight: 600; padding: 12px 15px; background: #419bf9; text-transform: uppercase; color: #fff; }
+
+#create-rad-page:hover div.rad-input-panel { display: block; }
+
+div.ioa-wp-editor { display: none; }
+
+span.initializer-msg { display: none; }
+
+#customize-header-actions { transition: top 0.2s ease; }
+
+.wp-full-overlay { z-index: 1; }
+
+.rad-builder-active #customize-preview { top: 59px; left: 15px; }
+
+.rad-builder-active #customize-controls, .rad-builder-active #available-widgets { left: -400px; }
+
+.rad-builder-active .wp-full-overlay.expanded { margin-left: 0; }
+
+.rad-builder-active #rad_live_settings { top: 0; }
+
+.rad-builder-active #customize-header-actions { top: -60px; }
+
+/** RAD Pages Library  */
+#rad-pages-library { display: block; position: fixed; top: 0px; right: -350px; bottom: 0px; width: 300px; background: #fff; z-index: 99992; transition: right 0.2s; border-left: 1px solid #eee; box-shadow: -5px 0px 20px rgba(0, 0, 0, 0.07); }
+
+.rad-page-library-open #rad-pages-library { right: 0; }
+
+.rad-section-library-open #rad-sections-library { right: 0; }
+
+a.close-rad-library, a.close-rad-section-library { background: #222; font-size: 11px; text-transform: uppercase; color: #fff; font-weight: 600; padding: 12px 15px; text-decoration: none; position: absolute; top: 0; right: 0; }
+
+div.rad-tabbed-area { position: relative; height: 100%; }
+
+div.rad-tabbed-area .ioa-information-p { margin: 0; border-left: none; border-right: none; padding: 11px 15px; background: #fff; font-size: 12px; border-radius: 0; }
+
+div.rad-tabbed-area ul.ui-tabs-nav { padding: 0; margin: 0; }
+
+div.rad-tabbed-area ul.ui-tabs-nav li { padding: 0; margin: 0; float: left; }
+
+div.rad-tabbed-area ul.ui-tabs-nav li a { padding: 12px 15px; text-align: center; margin: 0 2px 0 0; float: left; text-decoration: none; text-transform: uppercase; font-size: 11px; color: #999; }
+
+div.rad-tabbed-area ul.ui-tabs-nav li.ui-state-active a { background: rgba(0, 0, 0, 0.02); color: #222; }
+
+div.rad-tabbed-area div.rad-w-tab-content { overflow: auto; position: absolute; top: 84px; bottom: 0; right: 0; width: 300px; }
+
+div.rad-tabbed-area ul.ui-tabs-nav li a:focus { box-shadow: none; }
+
+.rad-section-search-file, .rad-search-file { padding: 0px; background: #fafafa; position: relative; border-top: 1px solid #eee; }
+
+.rad-section-search-file input, .rad-search-file input { border: none; box-shadow: none; padding: 12px 15px; width: 99%; color: #555; background: none; font-size: 12px; margin: 0; }
+
+.rad-section-search-file i, .rad-search-file i { position: absolute; top: 15px; right: 15px; z-index: 2; font-size: 13px; color: #777; }
+
+.rad-section-search-file input:focus, .rad-search-file input:focus { box-shadow: none; }
+
+.rad-template-icon { float: left; cursor: pointer; text-align: center; margin: 0px; position: relative; width: 33.33%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ border: 1px solid rgba(0, 0, 0, 0.1); border-left: none; border-top: none; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; }
+
+.rad-template-icon.level-1 { border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+.rad-template-icon:hover { background: #fafafa; }
+
+.rad-template-icon i.file-icon { font-size: 19px; margin-top: 10px; padding: 18px 18px 43px 18px; color: #999; }
+
+.rad-template-icon i.delete-icon { position: absolute; top: 0; left: 0px; font-size: 11px; background: #eee; color: #333; padding: 4px; z-index: 2; }
+
+.rad-template-icon span { display: block; line-height: 1.1; font-size: 10px; padding: 0 10px 0px 10px; position: absolute; bottom: 5px; left: 0; right: 0; color: #444; text-transform: uppercase; }
+
+#rad-sections-library { display: block; position: fixed; top: 0px; right: -350px; bottom: 0px; width: 300px; background: #fff; z-index: 99992; transition: right 0.2s; border-left: 1px solid #eee; box-shadow: -5px 0px 20px rgba(0, 0, 0, 0.07); }
+
+h3.rad-template-subheading { padding: 15px; background: #fafafa; clear: both; margin: 0; font-size: 13px; text-align: center; color: #777; text-transform: uppercase; font-weight: 600; }
+
+/** IOA WP Editor */
+.ioa-wp-editor { display: none; position: fixed; top: 50px; left: 50px; bottom: 50px; right: 50px; background: #fff; z-index: 99994; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
+
+.ioa-wp-editor div.ioa_input_holder { float: none; clear: none; width: 100%; }
+
+.ioa-wp-editor-footer { padding: 15px; background: #fafafa; border-top: 1px solid #ddd; position: absolute; bottom: 0; left: 0; width: 100%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ }
+
+.ioa-wp-editor-footer a { padding: 12px 20px; }
+
+.ioa-wp-editor-area { position: absolute; top: 20px; left: 20px; bottom: 66px; right: 20px; overflow: auto; }
+
+.ioa-wp-editor-area a.input-val-delete { display: none; }
+
+/** Modals */
+div.save-template-lightbox { position: absolute; display: none; top: 35px; right: 30px; width: 300px; padding: 20px; background: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
+
+div.save-template-lightbox input[type=text] { padding: 8px; border-radius: 2px; border: 1px solid #eee; width: 146px; float: left; margin-right: 15px; }
+
+div.save-template-lightbox a.close-icon { text-decoration: none; font-size: 13px; position: absolute; top: 7px; right: 12px; color: #333; }
+
+div.save-template-lightbox h4 { margin-top: 0; }
+
+/** Page import area */
+div.page-import-area { display: none; width: 600px; height: 500px; z-index: 30; position: fixed; background: #fff; padding: 20px; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); left: 50%; top: 50%; margin: -300px 0 0 -250px; }
+
+.page-import-area .ioa_input { float: left; }
+
+.page-import-area a.button-default { margin: 20px; float: left; }
+
+div.import-template-lightbox { position: absolute; display: none; top: 35px; right: -1px; width: 300px; padding: 15px; background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+
+div.import-template-lightbox input[type=text] { padding: 8px; border-radius: 0; border: 1px solid #eee; width: 148px; float: left; margin-right: 15px; }
+
+div.import-template-lightbox a.close-icon { text-decoration: none; font-size: 13px; position: absolute; top: 7px; right: 12px; color: #333; }
+
+div.import-template-lightbox h4 { margin: 0; }
+
+div.rad-footer-area { padding: 15px; border-top: 1px solid #eee; background: #fafafa; }
+
+/*=============================================
+=            RAD Settings Lightbox            =
+=============================================*/
+span.custom-id { font-size: 10px; background: #eee; color: #333; font-weight: 700; float: right; margin-left: 5px; border-radius: 4px; padding: 2px 8px; display: none !important; }
+
+/*
+div.settings-overlay {display: none; position: fixed; top:0; left:0; width: 100%; height: 100%; z-index:99991; opacity:0.7; background:#000000;  }
+*/
+div.input-section-tabs h5 { margin: 0; background: #fff; border-bottom: 1px solid #eee; padding: 0; }
+
+div.input-section-tabs h5 a { text-decoration: none; color: #333; font-size: 11px; text-transform: uppercase; padding: 15px; display: block; }
+
+div.settings-body { overflow: auto; position: absolute; top: 0; left: 0; width: 300px; bottom: 46px; }
+
+div.settings-lightbox { display: block; position: fixed; top: 0px; right: -300px; bottom: 0px; width: 300px; background: #fff; z-index: 99992; transition: right 0.2s; border-left: 1px solid #eee; box-shadow: -5px 0px 20px rgba(0, 0, 0, 0.07); }
+
+.show-lightbox-panel div.settings-lightbox { right: 0; }
+
+.show-lightbox-panel #customize-preview { right: 325px; }
+
+div.inner-settings-body h4 { margin: 0; padding: 12px 15px; font-size: 15px; color: #3b3e42; background: #fff; border-bottom: 1px solid #eee; }
+
+div.input-section-tabs h3 { text-shadow: none; margin: 0 !important; background: #fafafa; border-radius: 3px; cursor: pointer; padding: 14px; position: relative; color: #3b3e42; font-size: 14px; }
+
+div.input-section-tabs h3 a { font-size: 11px; text-decoration: none; float: right; }
+
+div.input-section-tabs a.save-ioa-module { display: none; }
+
+div.input-section-tabs .visual-settings-pane h3 { font-size: 12px; }
+
+div.input-section-tabs > div { display: none; }
+
+div.input-section-tabs > div.rad-styler { padding: 0; }
+
+div.input-section-tabs div.groud-check-wrap { width: 250px; }
+
+div.input-section-tabs .ui-tabs-panel { position: relative; }
+
+a.button-default.ioa-editor-trigger { margin-left: 0; }
+
+.rad-widget-styler { font-size: 16px; float: left; margin-right: 10px; }
+
+div.input-section-tabs a.section-reset { position: absolute; top: -45px; right: 0px; font-size: 13px; color: #ffffff; background: #d10f21; text-shadow: none; text-decoration: none; padding: 14px 20px; font-weight: 600; line-height: 1.35; }
+
+div.bottom-bar { position: absolute; bottom: 0; left: 0; width: 100%; padding: 0; background: #ffffff; }
+
+div.bottom-bar a { margin: 0px; width: 50%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box; /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ text-align: center; }
+
+div.bottom-bar a.cancel-settings { float: left; padding: 14px 20px; border-radius: 0; }
+
+div.bottom-bar a.save-settings { float: left; padding: 14px 20px; border-radius: 0; }
+
+div.ioa_input .wp-media-buttons .insert-media { margin-left: 10px; }
+
+a.rad_gallery_upload.button-default { margin: 15px; clear: both; float: left; }
+
+div.text-settings-lightbox div.settings-pane { display: block; }
+
+div.settings-pane { display: block; margin: 0; width: 100%; float: none; }
+
+/*-----  End of RAD Settings Lightbox  ------*/
+/** Gallery Input Styligs */
+.settings-lightbox ul.rad_gallery_thumbs { margin: 0; padding: 0px 15px 15px 15px; clear: both; }
+
+ul.rad_gallery_thumbs li { float: left; position: relative; margin: 0px; width: 75px; height: 75px; list-style: none; overflow: hidden; }
+
+ul.rad_gallery_thumbs li img { max-width: 100%; display: block; box-shadow: 0px 0px 4px #111; }
+
+ul.rad_gallery_thumbs li a.close { background: url(i/rad_sprites/cross.png); width: 16px; height: 16px; position: absolute; top: 1px; right: 1px; z-index: 3; }
+
+ul.rad_gallery_thumbs li.ui-sortable-placeholder { float: left; position: relative; margin: 0px; width: 73px; height: 73px; visibility: visible !important; background: #fafafa; border: 1px dashed #ddd; }
+
+/*# sourceMappingURL=rad_live_editor.css.map */

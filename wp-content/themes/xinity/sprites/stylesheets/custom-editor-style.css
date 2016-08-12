@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.col { margin-right:1.2%; margin-bottom:1.2%; float: left; min-height:70px; border:1px solid #e7e7e7; padding:1%;  }
+.full { width: 97%; min-height: 1px; border:1px dotted #ddd; padding:1%; background:#ffffff }
+.one_half { width: 47.3%;   }
+.one_third  { width: 30.40%;   }
+.one_fourth  { width: 21.95%;  }
+.two_third  { width: 64%;  }
+.three_fourth  { width: 72.55%;  }
+.one_fifth { width:16.9%;  }
+.four_fifth  { width:77.6%;  }
+.one_sixth  { width: 13.55%;  }
+.five_sixth { width: 80.9%;  }
+
+
+.last  { padding-right:0; clear:right; margin-right:0;}
+

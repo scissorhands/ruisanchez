@@ -1,0 +1,8 @@
+[12-Jan-2016 22:37:27 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60
+[31-Jan-2016 13:07:27 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60
+[31-Jan-2016 19:04:39 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60
+[20-Feb-2016 08:08:16 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60
+[14-Mar-2016 11:45:35 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60
+[14-Mar-2016 11:46:04 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60
+[28-Apr-2016 02:26:18 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60
+[30-Apr-2016 14:12:59 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/ximicamp/public_html/ruisanchez/wp-content/plugins/hello.php on line 60

@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.progress-bar div.filler span i { bottom:-4px!important; }
+
+
+.video-bg  , .quant_video-bg {  opacity:1!important; }
+
+.video-bg img.ie-fallback { display: block; height:100%; }
+.video-bg video , .quant_video-bg video , .quant_video-bg object { display: none; }
